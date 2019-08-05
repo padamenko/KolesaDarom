@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Колёса даром</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="header">
+		<div class="header-info">
+			<div class="header-block logo">
+				<img class="logo-image" src="image/logo.png" alt="logo" />
+			</div>
+			<div class="header-block feedback">
+				<div class="feedback-info">
+					<div class="feedback-phone">8 800 250 98 60</div>
+					<div class="feedback-time">Круглосуточно</div>
+				</div>
+				<div class="feedback-call call">
+					<img src="image/tel.png" alt="phone" class="call-img">
+					<div class="call-text">Заказать звонок</div>
+				</div>
+			</div>
+			<div class="header-block contacts">
+				<a href="" class="contacts-link">Контакты</a>
+				<a href="" class="contacts-link">Покупателям</a>
+			</div>
+		</div>
+		<div class="header-nav nav">
+			<div class="nav-left">
+				<div class="nav-menu menu">
+					<div class="menu-burger burger">
+						<div class="burger-inner"></div>
+					</div>
+					<span class="menu-title">Каталог</span>
+				</div>
+				<div class="nav-search search">
+					<input type="text" placeholder="Поиск" value="" class="search-input">
+					<div class="search-button">
+						<img src="image/search.png" alt="search">
+					</div>
+				</div>
+			</div>
+			<div class="nav-right">
+				<div class="nav-user user">
+					<div class="user-item favourites">
+						<img src="image/star.png" alt="favourites" class="user-icon">
+						<span class="user-text">Избранное</span>
+					</div>
+					<div class="user-item login">
+						<img src="image/person.png" alt="favourites" class="user-icon">
+						<span class="user-text">Войти</span>
+					</div>
+					<div class="user-item user-item--line"></div>
+					<div class="user-item basket">
+						<div class="basket-icon">
+							<img src="image/cart.png" alt="basket" class="basket-img">
+							<div class="basket-goods">23</div>
+						</div>
+						<div class="basket-info">
+							<div class="basket-title">Корзина</div>
+							<div class="basket-price">12 390 ₽</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="breadcrums">
+			<div class="breadcrums-item">Главная</div>
+			<div class="breadcrums-item">Авто</div>
+			<div class="breadcrums-item">Каталог шин</div>
+		</div>
+		<h1 class="title">Автомобильные шины</h1>
+		<div class="catalog">
+			<div class="catalog-left">
+				<div class="filters">
+					<div class="filters-block size">
+						<div class="filters-title">Размеры</div>
+						<div class="size-item">
+							<div class="size-name">Ширина</div>
+							<div class="size-select select">
+								<select class="select-select">
+									<option class="select-option">32</option>
+									<option class="select-option">30</option>
+								</select>
+							</div>
+						</div>
+						<div class="size-item">
+							<div class="size-name">Профиль</div>
+							<div class="size-select select">
+								<select class="select-select">
+									<option class="select-option">10,5</option>
+									<option class="select-option">12,5</option>
+								</select>
+							</div>
+						</div>
+						<div class="size-item">
+							<div class="size-name">Диаметр</div>
+							<div class="size-select select">
+								<select class="select-select">
+									<option class="select-option">17</option>
+									<option class="select-option">18</option>
+								</select>
+							</div>
+						</div>
+						<div class="size-find">Подобрать по марке автомобиля</div>
+					</div>
+					<div class="filters-block season">
+						<div class="filters-title">Сезон</div>
+						<ul class="season-list">                
+							<li class="season-li">
+								<input class="season-input" id="summer" type="checkbox" name="first" checked hidden />
+								<label class="season-label" for="summer">Лето <img src="image/sun.png" class="season-image" alt="summer"></label>
+							</li>
+							<li class="season-li">
+								<input class="season-input" id="winter" type="checkbox" name="second" hidden />
+								<label class="season-label" for="winter">Зима <img src="image/snow.png" class="season-image" alt="winter"></label>
+							</li>
+						</ul>
+						
+					</div>
+					<div class="filters-block price">
+						<div class="filters-title">Цена за штуку</div>
+						
+					</div>
+					<div class="filters-block fabricator">
+						<div class="filters-title">Производители</div>
+						<ul class="fabricator-list">                
+							<li class="fabricator-li">
+								<input class="fabricator-input" id="MICHELIN" type="checkbox" name="first" checked hidden />
+								<label class="fabricator-label" for="MICHELIN">MICHELIN</label>
+							</li>
+							<li class="fabricator-li">
+								<input class="fabricator-input" id="BFGoodrich" type="checkbox" name="second" hidden />
+								<label class="fabricator-label" for="BFGoodrich">BFGoodrich</label>
+							</li>
+							<li class="fabricator-li">
+								<input class="fabricator-input" id="Continental" type="checkbox" name="second" hidden />
+								<label class="fabricator-label" for="Continental">Continental</label>
+							</li>
+							<li class="fabricator-li">
+								<input class="fabricator-input" id="Goodyear" type="checkbox" name="second" hidden />
+								<label class="fabricator-label" for="Goodyear">Goodyear</label>
+							</li>
+							<li class="fabricator-li">
+								<input class="fabricator-input" id="Nokian" type="checkbox" name="second" hidden />
+								<label class="fabricator-label" for="Nokian">Nokian</label>
+							</li>
+							<li class="fabricator-li">
+								<input class="fabricator-input" id="Pirelli" type="checkbox" name="second" hidden />
+								<label class="fabricator-label" for="Pirelli">Pirelli</label>
+							</li>
+							<li class="fabricator-li">
+								<input class="fabricator-input" id="Hankook" type="checkbox" name="second" hidden />
+								<label class="fabricator-label" for="Hankook">Hankook</label>
+							</li>
+							<li class="fabricator-li">
+								<input class="fabricator-input" id="Marshal" type="checkbox" name="second" hidden />
+								<label class="fabricator-label" for="Marshal">Marshal</label>
+							</li>
+						</ul>
+						<div class="fabricator-all">Показать все</div>
+					</div>
+					<div class="control">
+						<div class="control-button">Подобрать (36)</div>
+						<div class="control-reset">Сбросить фильтры</div>
+					</div>
+				</div>
+			</div>
+			<div class="catalog-right">
+				<div class="context">
+					<div class="context-info info">
+						<div class="info-goods">Найдено 128 товаров</div>
+						<div class="info-sort sort">
+							<div class="sort-title">Сортировать:</div>
+							<div class="sort-select select">
+								<select class="select-select">
+									<option class="select-option">По популярности</option>
+									<option class="select-option">По цене</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="context-goods goods">
+						<div class="goods-item">
+							<div class="item-image"><img src="image/good.png" alt="good" /></div>
+							<div class="item-info">
+								<div class="item-title">Matador MP47 Hectorra 3 SUV 255-50-R19-Y107-0…</div>
+								<div class="item-description item-description--summer">255/50 R19 Y 107</div>
+								<div class="item-footer">
+									<div class="item-price">9 850 ₽</div>
+									<div class="item-button">В корзину</div>
+								</div>
+							</div>
+						</div>
+						<div class="goods-item">
+							<div class="item-image"><img src="image/good.png" alt="good" /></div>
+							<div class="item-info">
+								<div class="item-title">Matador MP47 Hectorra 3 SUV 255-50-R19-Y107-0…</div>
+								<div class="item-description item-description--summer">255/50 R19 Y 107</div>
+								<div class="item-footer">
+									<div class="item-price">9 850 ₽</div>
+									<div class="item-button">В корзину</div>
+								</div>
+							</div>
+						</div>
+						<div class="goods-item">
+							<div class="item-image"><img src="image/good.png" alt="good" /></div>
+							<div class="item-info">
+								<div class="item-title">Matador MP47 Hectorra 3 SUV 255-50-R19-Y107-0…</div>
+								<div class="item-description item-description--summer">255/50 R19 Y 107</div>
+								<div class="item-footer">
+									<div class="item-price">9 850 ₽</div>
+									<div class="item-button">В корзину</div>
+								</div>
+							</div>
+						</div>
+						<div class="goods-item">
+							<div class="item-image"><img src="image/good.png" alt="good" /></div>
+							<div class="item-info">
+								<div class="item-title">Matador MP47 Hectorra 3 SUV 255-50-R19-Y107-0…</div>
+								<div class="item-description item-description--summer">255/50 R19 Y 107</div>
+								<div class="item-footer">
+									<div class="item-price">9 850 ₽</div>
+									<div class="item-button">В корзину</div>
+								</div>
+							</div>
+						</div>
+						<div class="goods-item">
+							<div class="item-image"><img src="image/good.png" alt="good" /></div>
+							<div class="item-info">
+								<div class="item-title">Matador MP47 Hectorra 3 SUV 255-50-R19-Y107-0…</div>
+								<div class="item-description item-description--summer">255/50 R19 Y 107</div>
+								<div class="item-footer">
+									<div class="item-price">9 850 ₽</div>
+									<div class="item-button">В корзину</div>
+								</div>
+							</div>
+						</div>
+						<div class="goods-item">
+							<div class="item-image"><img src="image/good.png" alt="good" /></div>
+							<div class="item-info">
+								<div class="item-title">Matador MP47 Hectorra 3 SUV 255-50-R19-Y107-0…</div>
+								<div class="item-description item-description--summer">255/50 R19 Y 107</div>
+								<div class="item-footer">
+									<div class="item-price">9 850 ₽</div>
+									<div class="item-button">В корзину</div>
+								</div>
+							</div>
+						</div>
+						<div class="goods-item">
+							<div class="item-image"><img src="image/good.png" alt="good" /></div>
+							<div class="item-info">
+								<div class="item-title">Matador MP47 Hectorra 3 SUV 255-50-R19-Y107-0…</div>
+								<div class="item-description item-description--summer item-description item-description--summer--summer">255/50 R19 Y 107</div>
+								<div class="item-footer">
+									<div class="item-price">9 850 ₽</div>
+									<div class="item-button">В корзину</div>
+								</div>
+							</div>
+						</div>
+						<div class="goods-item">
+							<div class="item-image"><img src="image/good.png" alt="good" /></div>
+							<div class="item-info">
+								<div class="item-title">Matador MP47 Hectorra 3 SUV 255-50-R19-Y107-0…</div>
+								<div class="item-description item-description--summer item-description item-description--summer--summer">255/50 R19 Y 107</div>
+								<div class="item-footer">
+									<div class="item-price">9 850 ₽</div>
+									<div class="item-button">В корзину</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="context-nav">
+						<div class="more"><img src="image/shape.png" class="more-image" alt="more"> Показать еще</div>
+						<div class="pagination">
+							<div class="pagination-item">1</div>
+							<div class="pagination-item pagination-item--active">2</div>
+							<div class="pagination-item">3</div>
+							<div class="pagination-item">4</div>
+							<div class="pagination-item">5</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-text">
+			<div class="footer-info">Колеса Даром — интернет-магазин шин и дисков</div>
+			<div class="copyright">Copyright 2009–2018 All rights reserved</div>
+		</div>
+		<div class="footer-contacts">
+			<img src="image/24.png" alt="24" class="footer-image" />
+			<div class="footer-call">
+				<div class="footer-phone">8 800 250 98 60</div>
+				<div class="footer-line">Горячая линия 24/7</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
